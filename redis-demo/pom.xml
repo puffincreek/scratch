@@ -28,7 +28,7 @@
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
-            <version>3.3.0demo-SNAPSHOT</version>
+            <version>3.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>commons-cli</groupId>
