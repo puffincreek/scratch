@@ -98,7 +98,7 @@ public class Console implements CommandLineRunner {
         if (jedis == null) {
             log.error("no connection established towards: {}", hostAndPort);
         } else {
-            log.error("connection established towards: {}", hostAndPort);
+            log.info("connection established towards: {}", hostAndPort);
         }
         return jedis;
     }
